@@ -1,0 +1,213 @@
+*{
+	margin:30px;
+	padding: 0px;
+}
+nav, ul{
+	background-color: gray;
+	
+}
+nav, ul, li, a{
+	display:inline-block; 
+	text-decoration: none;
+	margin: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 35px;
+	color: black;
+}
+
+.num1{
+	width: 900px;
+	height: 1000px;
+	background-color: black;
+	margin: 50px ;
+	}
+.num1 div:nth-child(1),.num1 div:nth-child(2),.num1 div:nth-child(3) {
+	width: 210px;
+	height: 160px;
+	background-color: red;
+	display: inline-block;
+	margin-left: 50px;
+	}
+	.num1 div:first-child nav,.num1 div:nth-child(2) nav,.num1 div:nth-child(3) nav{
+		width: 100px;
+		height: 100px;
+		background-color: rgb(83, 5, 83);
+		margin-left: 50px;
+		border-radius: 50%;
+	}
+	.num1 div:nth-child(4),.num1 div:nth-child(5) {
+		width: 320px;
+		height: 320px;
+		background-color: red;
+		display: inline-block;
+		margin-left: 75px;
+		}
+.num1 div:nth-child(4) nav,.num1 div:nth-child(5) nav{
+		width: 200px;
+		height: 200px;
+		background-color: rgb(83, 5, 83);
+		margin-left: 50px;
+		border-radius: 50%;
+		margin: 60px 60px;
+		}
+
+		.num1 div:last-child{
+	width: 730px;
+	height: 330px;
+	background-color: red;
+	margin-left: 80px
+}
+.num1 div:last-child nav{
+	width: 150px;
+	height: 280px;
+	background-color: rgb(83, 5, 83);
+	margin-left: 55px;
+}
+.num1 div:last-child nav:first-child aside{
+	width: 70px;
+	height: 70px;
+	background-color: yellow;
+	margin-bottom: -20px;
+	margin-left: 40px;
+}
+.num1 div:last-child nav:nth-child(2) aside{
+	width: 100px;
+	height: 230px;
+	background-color: yellow;
+	border-radius: 50px;
+	margin-left: 25px;
+}
+.num1 div:last-child nav:last-child aside{
+	width: 70px;
+	height: 70px;
+	background-color: yellow;
+	margin-bottom: -20px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+
+
+
+.num2{
+	width: 900px;
+	height: 1000px;
+	background-color: darkgreen;
+}
+.num2 article:first-child, .num2 article:nth-child(2){
+	width: 400px;
+	height: 400px;
+	background-color: rgb(255, 51, 0);
+	float: left;
+	margin: 0px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.num2 article:first-child nav, .num2 article:nth-child(2) nav{
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	margin: 20px;
+	border-radius: 50%;
+}
+.num2 article:nth-child(3){
+	width: 400px;
+	height: 200px;
+	background-color: rgb(255, 51, 0);
+	margin-left: 250px;
+	float: left;
+	margin-right: 50px;
+}
+.num2 article:nth-child(3) nav{
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	margin: 25px;
+	float: left;
+	border-radius: 50%;
+}
+.num2 article:nth-child(4),.num2 article:nth-child(5),.num2 article:nth-child(6){
+	width: 150px;
+	height: 250px;
+	background-color: rgb(255, 51, 0);
+	float: left;
+}
+.num2 article:nth-child(4) nav,.num2 article:nth-child(5) nav,.num2 article:nth-child(6) nav {
+width: 100px;
+height: 200px;
+background-color: yellow;
+margin: 25px ;
+border-radius: 30%;
+}
+.num2 article:nth-child(7){
+	width: 250px;
+	height: 250px;
+	background-color: rgb(255, 51, 0);
+	float: left;
+	margin-left: -10px;
+}
+.num2 article:nth-child(7) nav{
+	width: 90px;
+	height: 90px;
+	background-color: yellow;
+	margin: 15px;
+	border-radius: 50%;
+}
+
+
+.num3{
+	width: 900px;
+	height: 1400px;
+	background-color: yellow;
+}
+.num3 div:first-child , .num3 div:nth-child(2){
+	width: 400px;
+	height: 400px;
+	background-color: darkred;
+	margin: 25px;
+	float: left;
+}
+.num3 div:first-child figure , .num3 div:nth-child(2) figure{
+	width: 350px;
+	height: 350px;
+	background-color: darkorange;
+	margin: 25px;
+	padding: 2px;
+}
+.num3 div:first-child figure section, .num3 div:nth-child(2) figure section{
+	width: 300px;
+	height: 300px;
+	background-color: rgb(0, 17, 255);	
+	margin-left: 25px;
+}
+.num3 div:first-child figure section aside, .num3 div:nth-child(2) figure section aside{
+	width: 80px;
+	height: 80px;
+	background-color: rgb(211, 37, 144);
+	float: left;
+	margin-left: 35px;
+	margin-top: 1px;
+	border-radius: 50%;
+}
+
+
+.num3 div:nth-child(3), .num3 div:last-child{
+	width: 850px;
+	height: 400px;
+	background-color: darkred;
+	display: inline-block;
+	margin-left: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
